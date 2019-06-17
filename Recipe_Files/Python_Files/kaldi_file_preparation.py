@@ -49,8 +49,10 @@ for x in split_cat:
             type_of_data = 'clean'
         elif prefix == 'N':
             type_of_data = 'noisy'
-        else:
+        elif prefix == 'B':
             type_of_data = 'bulk'
+        elif prefix == 'L':
+            type_of_data = 'sed_8_5'
 
         split_file = open(text_files_dir+type_of_data+'/'+folder_name+'/'+file_name+'.txt','r')
         s_f_content = split_file.read().split('\n')

@@ -37,7 +37,7 @@ delta_num=$1
 
 actual_delta_num=$delta_num+1
 
-exp_description="SED Loop A: Seed Model 1 hour + $delta_num delta blocks"
+exp_description="SED 8.5 Model: Seed Model 1 hour + $delta_num delta blocks"
 
 echo ============================================================================
 echo "                Data & Lexicon & Language Preparation                     "
